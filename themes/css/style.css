@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.login-form,.reg-form{
+  margin:auto;
+  float: none;
+  background: #fff;
+  background-size: cover;
+  color: inherit;
+  text-align: center!important;
+}
+
+.form form{
+   text-align: center!important;
+   float: none;
+   margin: auto!important;
+}
+@media screen and (max-width : 600px){
+  .input{
+    width: 80%!important;
+    margin: auto;
+  }
+  .login-form{
+    text-align: center!important;
+    border-radius: 0px;
+    width: 100%!important;
+  }
+}
+.slide-to-top{
+  display: none!important;
+}
+
+p.form-header{
+  font-size: 30px!important;
+}
+
+.footer-wrapper{
+  text-align:center;
+}
+.input{
+	display: block;
+	margin: 5px 0 5px 0;
+	width : 70%;
+	min-height: auto;
+	padding: 5px 20px 5px 20px;
+	border-radius: 3px;
+	border:none;
+	color:auto;
+	box-shadow:0 0 3px 0;
+}
+.input-inline{
+	display: inline !important;
+	border:none;
+}
+.input-border-bottom{
+	border-radius: 0 !important;
+	box-shadow: 0 0px 0px 0 lightgray !important;
+	border-bottom: 2px solid lightgray!important;
+}
+.input-border-bottom:focus{
+	border-bottom: 2px solid #00f!important;
+}
+/* div alignment and width */
+.center{
+  width: 60%!important; /* for desktop */
+  margin: auto!important;
+}
+.left{
+  width: 68%;
+  float: left;
+}
+.right{
+  width: 30%;
+  float: right;
+}
+form{
+  width: 100%;
+}
+.main-wrapper{
+  margin : auto!important;
+  width: 95%;
+}
+.center.container{
+  margin-top:100px!important; /*--for login form */
+}
+@media screen and (max-width : 600px){
+  .center,form, .input{
+    width: 100%!important; /* for desktop */
+    margin: auto!important;
+  }
+}
+.model-wrapper{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: lightgray;
+  overflow-y: auto;
+  padding: 20px 5%;
+  z-index: 9999;
+}
+.model-body{
+  height: calc(100% - 50px);
+  margin : auto;
+}
+.model-header{
+  height:50px;
+}
+input[type=submit].input{
+  /* background-color: unset!important; */
+}
+
+/*-------------------------------------------------------------\
+- test questions/quiz navigations--important
+-----------------------------------------------------------*/
+.t-mcq-option{
+  text-align: left!important;
+  padding: 3px;
+  width: 100%;
+  display: block;
+}
+.content-slide{
+  display: none;
+}
+.quiz-next,.quiz-prev {
+  background: rgba(0,20,20,0.5);
+  background: var(--button);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.quiz-next{
+  float: right;
+}
+.quiz-prev{
+  float: left;
+}
+.slide0{
+  display: block;
+}
+.active-slide{
+  display: block!important;
+}

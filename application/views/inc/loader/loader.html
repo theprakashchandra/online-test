@@ -1,0 +1,71 @@
+
+    <style media="screen">
+    #loader {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     z-index: 1;
+     width: 200px;
+     height: 200px;
+     margin: -75px 0 0 -75px;
+     width: 120px;
+     height: 30px;
+     display: flex;/* this is must*/
+
+    }
+    #loader span{
+     width: 10px;
+     height: 60px;
+     background: #0ff;
+     margin: 5px;
+    }
+    #loader span:first-child {
+     -webkit-animation: spin 1s linear infinite;
+     animation: spin1 1s linear infinite;
+    }
+    #loader span:last-child {
+     -webkit-animation: spin 1s linear infinite;
+     animation: spin2 1s linear infinite;
+     animation-delay: 0.5s; /* animation delay not sholud be more than the total time taken by 1st animation  take it less than the half of animation duration*/
+    }
+    #loader span:nth-child(2){
+     -webkit-animation: spin 1s linear infinite;
+     animation: spin3 1s linear infinite;
+     animation-delay: 0.25s;
+    }
+
+
+    @-webkit-keyframes spin1 {
+      0% { opacity: 1;transform: scaleY(1);}
+      100% {opacity: 0.2;transform: scaleY(0.5); }
+    }
+
+    @keyframes spin1 {
+      0% { opacity: 1;transform: scaleY(1);}
+      100% {opacity: 0.2;transform: scaleY(0.5);}
+    }
+    @-webkit-keyframes spin2 {
+      0% { opacity: 1;transform: scaleY(1);}
+      100% {opacity: 0.2;transform: scaleY(0.5); }
+    }
+
+    @keyframes spin2 {
+      0% { opacity: 1;transform: scaleY(1);}
+      100% {opacity: 0.2;transform: scaleY(0.5); }
+    }
+    @-webkit-keyframes spin3 {
+     0% { opacity: 1;transform: scaleY(1);}
+     100% {opacity: 0.2;transform: scaleY(0.5); }
+    }
+
+    @keyframes spin3 {
+      0% { opacity: 1;transform: scaleY(1);}
+      100% {opacity: 0.2; transform: scaleY(0.5);}
+    }
+
+    </style>
+    <div class="loader" id="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>

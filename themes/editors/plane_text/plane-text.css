@@ -1,0 +1,16 @@
+.editor-body{
+  /* min-height: 50px;
+  max-height: 200px; */
+  width: 100%;
+    overflow-y: auto;
+    padding: 5px 20px;
+    border-radius: 3px;
+    /* bord er-bottom: 1px solid steelblue; */
+  /* height: content; */
+}
+.editor-wrapper-plane{
+  /* height: content; */
+  /* min-height: 50px;
+  max-height: 200px; */
+  padding: 5px 20px;
+}
