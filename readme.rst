@@ -1,4 +1,11 @@
 ###################
+About Online Test Project
+###################
+
+This is an online portal where teachers can generate tests for their students and evaluate their progress.
+this is written with the help of codeignighter framework.
+
+###################
 What is CodeIgniter
 ###################
 
