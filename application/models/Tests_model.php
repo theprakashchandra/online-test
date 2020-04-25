@@ -4,6 +4,8 @@
  * this class holds all the database queries related to tests
  * db table : test_ =>test_type : test; table:test_que =>
  * controller : tests.php
+ * @author: prakash Chandra
+ * @link : https://solotutes.com //origin of code
  */
 class Tests_model extends CI_model
 {
